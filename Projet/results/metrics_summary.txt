@@ -1,0 +1,9 @@
+FINAL EVALUATION RESULTS (SQuAD)
+=======================================================
+Exact Match (EM):   63.34 %
+F1-score:           77.51 %
+Precision:          80.00 %
+Recall:             80.40 %
+Avg inference time: 14.98 ms/question
+Total eval time:    8.81 minutes
+Num examples:       34726
