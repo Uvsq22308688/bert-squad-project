@@ -1,0 +1,7 @@
+total_examples: 5000
+over_384: 72
+percent_over_384: 1.44
+p50: 161.0
+p90: 260.0
+p95: 296.0
+max: 817
