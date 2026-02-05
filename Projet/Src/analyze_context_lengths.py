@@ -9,7 +9,7 @@ from pathlib import Path
 # =========================
 BASE_DIR = Path("/content/bert-squad-project")
 DATA_DIR = BASE_DIR / "Projet" / "Data" / "processed" / "dev_squad_hf"
-OUT_DIR  = BASE_DIR / "analysis"
+OUT_DIR  = BASE_DIR / "Projet" / "analysis"
 
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 

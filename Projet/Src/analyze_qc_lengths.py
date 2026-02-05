@@ -19,7 +19,7 @@ def main():
     for _ in range(4):  # dev_squad_hf → Traitée → Données → Projet
         BASE_DIR = BASE_DIR.parent
 
-    OUT_DIR = BASE_DIR / "analysis"
+    OUT_DIR = BASE_DIR / "Projet" / "analysis"
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     OUT_FILE = OUT_DIR / "qc_token_length_stats.txt"
 
